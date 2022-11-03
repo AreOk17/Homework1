@@ -49,6 +49,6 @@ public class Main {
         System.out.println("Всегo работников в компании " +PeopleWorking+ " Человек " ) ;
         var MorePeople = PeopleWorking + 94.0;
         var Total = MorePeople % WorkingHours;
-        System.out.println("Если в кoмпании работает " +MorePeople+ " человек то всего "  +Total+ " часов работы может быть поделено между сотрудниками ");
+        System.out.println("Если в компании работает " +MorePeople+ " человек то всего "  +Total+ " часов работы может быть поделено между сотрудниками ");
     }
 }
