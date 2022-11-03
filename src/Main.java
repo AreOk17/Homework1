@@ -46,7 +46,7 @@ public class Main {
         var TotalWorkingHours = 640.0;
         var WorkingHours = 8.0;
         var PeopleWorking = TotalWorkingHours / WorkingHours;
-        System.out.println("Всего работников в компании " +PeopleWorking+ " Человек " ) ;
+        System.out.println("Всегo работников в компании " +PeopleWorking+ " Человек " ) ;
         var MorePeople = PeopleWorking + 94.0;
         var Total = MorePeople % WorkingHours;
         System.out.println("Если в кoмпании работает " +MorePeople+ " человек то всего "  +Total+ " часов работы может быть поделено между сотрудниками ");
