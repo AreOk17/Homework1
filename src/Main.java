@@ -1,0 +1,54 @@
+public class Main {
+    public static void main(String[] args) {
+        var dog  = 8.0;
+        System.out.println ( dog );
+        var cat = 3.6;
+        System.out.println ( cat );
+        var paper = 763789;
+        System.out.println( paper ) ;
+        dog = dog +4;
+        System.out.println ( dog );
+        cat = cat + 4 ;
+        System.out.println ( cat );
+        paper = paper + 4;
+        System.out.println( paper ) ;
+        dog = dog - 3.5;
+        System.out.println ( dog );
+        cat = cat - 1.6;
+        System.out.println ( cat );
+        paper = paper - 7639;
+        System.out.println( paper );
+        var friend = 19;
+        System.out.println( friend ) ;
+        friend = friend +2;
+        System.out.println( friend ) ;
+        friend = friend / 7;
+        System.out.println( friend ) ;
+        var frogs =  3.5 ;
+        frogs = frogs * 10 ;
+        System.out.println( frogs ) ;
+        frogs = frogs / 3.5;
+        System.out.println( frogs ) ;
+        frogs = frogs + 4 ;
+        System.out.println( frogs ) ;
+        var BoxerWeightNumber1 = 78.2;
+        System.out.println( BoxerWeightNumber1 ) ;
+        var BoxerWeightNumber2 =  82.7;
+        System.out.println( BoxerWeightNumber2 ) ;
+        var WeightDifference = BoxerWeightNumber1 + BoxerWeightNumber2;
+        System.out.println( "общий вес двух бойцов : " +WeightDifference+ " кг " ) ;
+        var WeightDifference1 = BoxerWeightNumber1 - BoxerWeightNumber2;
+        System.out.println("разница в весе "  +WeightDifference1+ " кг " ) ;
+        var WeightDifference2 = BoxerWeightNumber2 - BoxerWeightNumber1;
+        System.out.println("разница в весе " +WeightDifference2+ " кг " ) ;
+        var WeightDifference3 = (BoxerWeightNumber2 % BoxerWeightNumber1) ;
+        System.out.println("разница в весе " +WeightDifference3+ " кг " ) ;
+        var TotalWorkingHours = 640.0;
+        var WorkingHours = 8.0;
+        var PeopleWorking = TotalWorkingHours / WorkingHours;
+        System.out.println("Всего работников в компании " +PeopleWorking+ " Человек " ) ;
+        var MorePeople = PeopleWorking + 94.0;
+        var Total = MorePeople % WorkingHours;
+        System.out.println("Если в компании работает " +MorePeople+ " человек то всего "  +Total+ " часов работы может быть поделено между сотрудниками ");
+    }
+}
